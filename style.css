@@ -1,0 +1,81 @@
+body {
+	background: url("logo.jpg") no-repeat;
+	webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	font-family: "arial";
+	color: white;
+}
+
+
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+	width: 150px;
+	height: 40px;
+	opacity:inherit;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;	
+}
+
+ul li a:hover {
+	background-color: grey;
+	
+	
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+.welcome{
+	width: 400px;
+	height: 100px;
+	float: right;
+	text-transform: uppercase;
+	color: white;
+	background-color: none;
+	font-size: 20px;
+	text-align: right;
+	padding-right: 50px;
+	margin: 10px;
+}
+
+.footer {
+	position:static;
+	left: 0;
+	bottom: 100%;
+	width: 100%;
+	background-color: none;
+	color: white;
+	padding-bottom: 0%;
+	
+}
+
+
+	
+
+	
+	
+	
+	
+	
+
